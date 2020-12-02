@@ -30,13 +30,15 @@ namespace HW01
             string lastName = Console.ReadLine();
 
             Console.WriteLine("Ввелите ваш возраст:");
-            int age = int.Parse(Console.ReadLine()); //запрашиваем возраст и приводим строку к целочисленному значению
-
+            byte age = byte.Parse(Console.ReadLine()); //запрашиваем возраст и приводим строку к целочисленному значению 
+                                                       //byte - т.к. вряд ли есть люде старше 255 лет
             Console.WriteLine("Введите ваш рост:");
-            int height = int.Parse(Console.ReadLine());
-
+            ushort height = ushort.Parse(Console.ReadLine()); /*byte маловато, а int слишком большой запас.
+                                                              тип с плавающей запятой не стал использовать, предполагая что рост до мм обычно не сообщают,
+                                                              а вот вес можно было запихнуть в переменную float или double
+                                                               */
             Console.WriteLine("Введите ваш вес:");
-            int weight = int.Parse(Console.ReadLine());
+            ushort weight = ushort.Parse(Console.ReadLine());
 
             Console.WriteLine("Конкатенация: \n" 
                                                 + "Имя - " + firstName 
@@ -51,6 +53,8 @@ namespace HW01
             Console.WriteLine("**********************************************");
 
             Console.WriteLine($"Вывод используя $: \n имя: {firstName} фамилия: {lastName} возраст: {age} рост: {height} вес: {weight}");
+
+            Console.WriteLine("Для выхода нажмите любую клавишу");
             Console.ReadKey();
         }
     }

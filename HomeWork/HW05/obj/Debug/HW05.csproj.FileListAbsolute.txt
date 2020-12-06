@@ -1,6 +1,0 @@
-C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\HW05\bin\Debug\HW05.exe.config
-C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\HW05\bin\Debug\HW05.exe
-C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\HW05\bin\Debug\HW05.pdb
-C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\HW05\obj\Debug\HW05.csproj.CoreCompileInputs.cache
-C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\HW05\obj\Debug\HW05.exe
-C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\HW05\obj\Debug\HW05.pdb

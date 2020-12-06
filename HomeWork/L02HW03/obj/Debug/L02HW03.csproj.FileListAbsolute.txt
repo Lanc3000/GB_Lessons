@@ -1,0 +1,7 @@
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L02HW03\bin\Debug\L02HW03.exe.config
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L02HW03\bin\Debug\L02HW03.exe
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L02HW03\bin\Debug\L02HW03.pdb
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L02HW03\obj\Debug\L02HW03.csprojAssemblyReference.cache
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L02HW03\obj\Debug\L02HW03.csproj.CoreCompileInputs.cache
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L02HW03\obj\Debug\L02HW03.exe
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L02HW03\obj\Debug\L02HW03.pdb

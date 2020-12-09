@@ -23,16 +23,24 @@ namespace L02HW07
                 OutputRange(++a, b);    
         }
         static int SumOfRange(int a, int b) {
-            if (a == b)
-                return a;
-            else
+            if (a <= b)
                 return SumOfRange(++a, b) + a;
-           
+            return 0;
+        }
+        static int SumNumber(int a, int b)
+        {
+            if (a <= b)
+            {
+                var sum = SumNumber(a + 1, b);
+                return a + sum;
+            }
+            return 0;
         }
         static void Main(string[] args)
         {
             OutputRange(3, 10);
-            Console.WriteLine(SumOfRange(5, 10));
+            Console.WriteLine(SumOfRange(5, 7));
+            Console.WriteLine(SumNumber(5, 7));
             Console.ReadKey();
         }
     }

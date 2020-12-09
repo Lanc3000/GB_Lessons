@@ -4,3 +4,4 @@ C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\Home
 C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L02HW07\obj\Debug\L02HW07.csproj.CoreCompileInputs.cache
 C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L02HW07\obj\Debug\L02HW07.exe
 C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L02HW07\obj\Debug\L02HW07.pdb
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L02HW07\obj\Debug\L02HW07.csprojAssemblyReference.cache

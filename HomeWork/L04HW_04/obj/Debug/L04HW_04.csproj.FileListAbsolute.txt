@@ -1,0 +1,8 @@
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L04HW_04\bin\Debug\L04HW_04.exe.config
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L04HW_04\bin\Debug\L04HW_04.exe
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L04HW_04\bin\Debug\L04HW_04.pdb
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L04HW_04\obj\Debug\L04HW_04.csproj.CoreCompileInputs.cache
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L04HW_04\obj\Debug\L04HW_04.exe
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L04HW_04\obj\Debug\L04HW_04.pdb
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L04HW_04\obj\Debug\L04HW_04.csprojAssemblyReference.cache
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L04HW_04\bin\Debug\ArrayInit.txt

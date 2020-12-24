@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,15 +18,39 @@ using System.Threading.Tasks;
 namespace L05HW_02
 {
     class Message{
-        string filePath = 
-        static PrintNWords() { 
-        
+        private static string[] separators = { ",", ".", "!", "?", ";", ":", " " };
+        static void PrintNWords(string mes, int num) {
+            var words = mes.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            for (int i = 0; i < words.Length; i++) {
+                if (words[i].Length <= num)
+                    Console.WriteLine(words[i]);
+            }
+        }
+        static void Deletewords(string mes)
+        {
+
+        }
+        static string LongestWord(string mes)
+        {
+            return "";
+        }
+        static void LongestsWords(string mes)
+        {
+
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
+            string _filePath = AppDomain.CurrentDomain.BaseDirectory + "SomeText";
+            StreamReader reader = new StreamReader(_filePath);
+            string word = "";
+            do
+            {
+                word = reader.ReadLine();
+
+            } while (word.Equals(""));
         }
     }
 }

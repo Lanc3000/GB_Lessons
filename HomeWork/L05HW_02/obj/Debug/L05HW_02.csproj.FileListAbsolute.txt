@@ -1,0 +1,2 @@
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L05HW_02\obj\Debug\L05HW_02.csprojAssemblyReference.cache
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L05HW_02\obj\Debug\L05HW_02.csproj.CoreCompileInputs.cache

@@ -19,7 +19,7 @@ namespace L05HW_01
         static bool IsCorrectLogWithRegEx(string log)
         {
             Regex myReg = new Regex(@"[A-Za-z]{1}[A-Za-z0-9]{2,10}"); // не знаю как вывести что конкретно не верно в "логине", если не разделять 
-            if (myReg.IsMatch(log)) // регулярку на два метода (наподобие методов для задачи "а")
+            if (myReg.IsMatch(log)) // регулярку на три метода (наподобие методов для подзадачи "а")
                 return true;
             else
                 return false;

@@ -1,0 +1,12 @@
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L08HW_01\obj\Debug\L08HW_01.csprojAssemblyReference.cache
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L08HW_01\obj\Debug\L08HW_01.MainForm.resources
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L08HW_01\obj\Debug\L08HW_01.Properties.Resources.resources
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L08HW_01\obj\Debug\L08HW_01.csproj.GenerateResource.cache
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L08HW_01\obj\Debug\L08HW_01.csproj.CoreCompileInputs.cache
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L08HW_01\bin\Debug\L08HW_01.exe.config
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L08HW_01\bin\Debug\L08HW_01.exe
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L08HW_01\bin\Debug\L08HW_01.pdb
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L08HW_01\obj\Debug\L08HW_01.exe
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L08HW_01\obj\Debug\L08HW_01.pdb
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L08HW_01\bin\Debug\Question.txt
+C:\Users\Тимур\Desktop\Курс по C#\HomeWork\Lesson01HW\GB_Lessons\HomeWork\L08HW_01\obj\Debug\L08HW_01.GameForm.resources

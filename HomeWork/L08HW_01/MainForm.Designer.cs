@@ -31,21 +31,22 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuItemNew = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuItemOpen = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuItemSave = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuItemAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.menuItemExit = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.addButton = new System.Windows.Forms.Button();
-            this.deleteButton = new System.Windows.Forms.Button();
+            this.nudNumber = new System.Windows.Forms.NumericUpDown();
+            this.cbTrue = new System.Windows.Forms.CheckBox();
             this.saveButton = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.deleteButton = new System.Windows.Forms.Button();
+            this.addButton = new System.Windows.Forms.Button();
+            this.tbQuestion = new System.Windows.Forms.TextBox();
             this.toolStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudNumber)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -55,7 +56,7 @@
             this.toolStripDropDownButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(840, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(840, 29);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -63,52 +64,65 @@
             // 
             this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem3,
-            this.toolStripMenuItem1,
-            this.toolStripMenuItem2,
+            this.menuItemNew,
+            this.menuItemOpen,
+            this.menuItemSave,
+            this.menuItemAbout,
             this.toolStripSeparator1,
-            this.toolStripMenuItem4});
+            this.menuItemExit});
+            this.toolStripDropDownButton1.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(46, 24);
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(56, 26);
             this.toolStripDropDownButton1.Text = "&File";
             // 
-            // toolStripMenuItem1
+            // menuItemNew
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem1.Text = "&Open";
+            this.menuItemNew.Name = "menuItemNew";
+            this.menuItemNew.Size = new System.Drawing.Size(142, 26);
+            this.menuItemNew.Text = "&New";
+            this.menuItemNew.Click += new System.EventHandler(this.menuItemNew_Click);
             // 
-            // toolStripMenuItem2
+            // menuItemOpen
             // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem2.Text = "&Save";
+            this.menuItemOpen.Name = "menuItemOpen";
+            this.menuItemOpen.Size = new System.Drawing.Size(142, 26);
+            this.menuItemOpen.Text = "&Open";
+            this.menuItemOpen.Click += new System.EventHandler(this.menuItemOpen_Click);
             // 
-            // toolStripMenuItem3
+            // menuItemSave
             // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem3.Text = "&New";
+            this.menuItemSave.Name = "menuItemSave";
+            this.menuItemSave.Size = new System.Drawing.Size(142, 26);
+            this.menuItemSave.Text = "&Save";
+            this.menuItemSave.Click += new System.EventHandler(this.menuItemSave_Click);
             // 
-            // toolStripMenuItem4
+            // menuItemAbout
             // 
-            this.toolStripMenuItem4.DoubleClickEnabled = true;
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem4.Text = "E&xit";
+            this.menuItemAbout.Name = "menuItemAbout";
+            this.menuItemAbout.Size = new System.Drawing.Size(142, 26);
+            this.menuItemAbout.Text = "&About";
+            this.menuItemAbout.Click += new System.EventHandler(this.menuItemAbout_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(139, 6);
+            // 
+            // menuItemExit
+            // 
+            this.menuItemExit.DoubleClickEnabled = true;
+            this.menuItemExit.Name = "menuItemExit";
+            this.menuItemExit.Size = new System.Drawing.Size(142, 26);
+            this.menuItemExit.Text = "E&xit";
+            this.menuItemExit.Click += new System.EventHandler(this.menuItemExit_Click);
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.numericUpDown1);
-            this.panel1.Controls.Add(this.checkBox1);
+            this.panel1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.panel1.Controls.Add(this.nudNumber);
+            this.panel1.Controls.Add(this.cbTrue);
             this.panel1.Controls.Add(this.saveButton);
             this.panel1.Controls.Add(this.deleteButton);
             this.panel1.Controls.Add(this.addButton);
@@ -118,68 +132,83 @@
             this.panel1.Size = new System.Drawing.Size(840, 100);
             this.panel1.TabIndex = 1;
             // 
+            // nudNumber
+            // 
+            this.nudNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.nudNumber.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.nudNumber.Location = new System.Drawing.Point(560, 47);
+            this.nudNumber.Name = "nudNumber";
+            this.nudNumber.Size = new System.Drawing.Size(120, 30);
+            this.nudNumber.TabIndex = 4;
+            this.nudNumber.ValueChanged += new System.EventHandler(this.nudNumber_ValueChanged);
+            // 
+            // cbTrue
+            // 
+            this.cbTrue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbTrue.AutoSize = true;
+            this.cbTrue.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cbTrue.Location = new System.Drawing.Point(757, 48);
+            this.cbTrue.Name = "cbTrue";
+            this.cbTrue.Size = new System.Drawing.Size(68, 26);
+            this.cbTrue.TabIndex = 3;
+            this.cbTrue.Text = "True";
+            this.cbTrue.UseVisualStyleBackColor = true;
+            // 
+            // saveButton
+            // 
+            this.saveButton.BackColor = System.Drawing.Color.SkyBlue;
+            this.saveButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.saveButton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.saveButton.Location = new System.Drawing.Point(342, 35);
+            this.saveButton.Name = "saveButton";
+            this.saveButton.Size = new System.Drawing.Size(125, 45);
+            this.saveButton.TabIndex = 2;
+            this.saveButton.Text = "Save";
+            this.saveButton.UseVisualStyleBackColor = false;
+            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
+            // 
+            // deleteButton
+            // 
+            this.deleteButton.BackColor = System.Drawing.Color.SkyBlue;
+            this.deleteButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.deleteButton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.deleteButton.Location = new System.Drawing.Point(185, 35);
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Size = new System.Drawing.Size(125, 45);
+            this.deleteButton.TabIndex = 1;
+            this.deleteButton.Text = "Delete";
+            this.deleteButton.UseVisualStyleBackColor = false;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
+            // 
             // addButton
             // 
-            this.addButton.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.addButton.BackColor = System.Drawing.Color.SkyBlue;
+            this.addButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.addButton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addButton.Location = new System.Drawing.Point(26, 35);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(125, 45);
             this.addButton.TabIndex = 0;
             this.addButton.Text = "Add";
             this.addButton.UseVisualStyleBackColor = false;
+            this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
-            // deleteButton
+            // tbQuestion
             // 
-            this.deleteButton.Location = new System.Drawing.Point(185, 35);
-            this.deleteButton.Name = "deleteButton";
-            this.deleteButton.Size = new System.Drawing.Size(125, 45);
-            this.deleteButton.TabIndex = 1;
-            this.deleteButton.Text = "Delete";
-            this.deleteButton.UseVisualStyleBackColor = true;
-            // 
-            // saveButton
-            // 
-            this.saveButton.Location = new System.Drawing.Point(342, 35);
-            this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(125, 45);
-            this.saveButton.TabIndex = 2;
-            this.saveButton.Text = "Save";
-            this.saveButton.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(727, 48);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(98, 21);
-            this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numericUpDown1.Location = new System.Drawing.Point(560, 47);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 22);
-            this.numericUpDown1.TabIndex = 4;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(0, 27);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(840, 454);
-            this.textBox1.TabIndex = 2;
+            this.tbQuestion.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbQuestion.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tbQuestion.Location = new System.Drawing.Point(0, 29);
+            this.tbQuestion.Multiline = true;
+            this.tbQuestion.Name = "tbQuestion";
+            this.tbQuestion.Size = new System.Drawing.Size(840, 452);
+            this.tbQuestion.TabIndex = 2;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(840, 581);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbQuestion);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.toolStrip1);
             this.Name = "MainForm";
@@ -188,7 +217,7 @@
             this.toolStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudNumber)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,17 +227,18 @@
 
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem menuItemNew;
+        private System.Windows.Forms.ToolStripMenuItem menuItemOpen;
+        private System.Windows.Forms.ToolStripMenuItem menuItemSave;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem menuItemExit;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.NumericUpDown nudNumber;
+        private System.Windows.Forms.CheckBox cbTrue;
         private System.Windows.Forms.Button saveButton;
         private System.Windows.Forms.Button deleteButton;
         private System.Windows.Forms.Button addButton;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbQuestion;
+        private System.Windows.Forms.ToolStripMenuItem menuItemAbout;
     }
 }
